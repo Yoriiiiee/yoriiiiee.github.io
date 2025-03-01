@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/originals/07/e9/6f/07e96f20329f2e7be3bbe20b92bcfad0.gif');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+        }
+
+
+        a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+
+
+        p {
+            color: rgb(255, 255, 255);
+        }
+
+
+        h1.mainheading {
+            color: rgb(255, 255, 255);
+        }
+
+
+        .ourbox {
+            outline: 2px solid rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px auto;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 5px;
+            width: 50%;
+        }
+
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+
+        .social-icons img {
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+            border: 2px solid white;
+            border-radius: 10px;
+            padding: 5px;
+            background-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+
+        .social-icons img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+        }
+
+
+        .tabs {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+
+        .tabs a {
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border: 2px solid white;
+            border-radius: 5px;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        .content {
+            display: none;
+        }
+
+
+        .active {
+            display: block;
+        }
+
+
+        .bio-container {
+            text-align: left;
+            cursor: pointer;
+        }
+
+
+        .bio-content {
+            display: none;
+            margin-top: 10px;
+            color: white;
+            border: 1px solid white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: left;
+        }
+
+        .bio-subheading {
+
+            font-size: larger;
+            font-weight: bold;
+            color: rgb(255, 0, 0);
+        }
+    </style>
+    <title>Yoriiiiee's Socials</title>
+</head>
+
+<body>
+    <h1 class="mainheading">Welcome to Yoriiiie's Social Hub</h1>
+    <hr>
+
+    <div class="tabs">
+        <a onclick="showSection('about')">About me</a>
+        <a onclick="showSection('aspirations')">Aspirations</a>
+        <a onclick="showSection('contact')">Contact</a>
+    </div>
+
+    <div id="about" class="content active">
+        <div class="ourbox">
+            <h2 class="bio-container" onclick="toggleBio()" style="color: white;">Bio ▼</h2>
+            <div id="bio-content" class="bio-content" style="color: white;">
+                <p style="font-size: x-large; font-weight: bold;"> About Me</p>
+                <p>👋 Hello, I’m Yorie!</p>
+                <p>
+                    I am a 🎮 content creator, 🛠️ game developer, and 🎯 competitive gamer with a passion for
+                    delivering fun, engaging, and meaningful content. My mission is to entertain, inspire, and uplift
+                    others while setting an example as a ✝️ Christian, faith-oriented gamer in the gaming community.
+                    Through my content, I strive to balance competitive excellence, creativity, and faith, showing that
+                    gaming can be both exciting and spiritually enriching.
+                </p>
+                <p class="bio-subheading">🎥 Content Creation & Gaming 🎯
+                </p>
+                <p>I specialize in Roblox FPS and shooter games, bringing high-skill gameplay, strategic insights, and
+                    immersive experiences to titles such as Apocalypse Rising 2, Arsenal, Rush Point, Murder Mayhem,
+                    Fallen Survival, Rivals, and more. I also hold 🌎 world records in multiple Roblox aim trainers,
+                    showcasing my dedication to skill mastery and competitive growth.</p>
+                </p>
+                <p>💡 My ultimate goal is to make content that is not only fun and engaging 🎉 but also reflects my
+                    faith and values ✝️. I want to show that gaming can be a positive, uplifting space 🌟 where players
+                    can enjoy great content while growing together as a community.</p>
+                <p>Beyond FPS games, I create a variety of content across Roblox, including 🎭 unique game modes, 🔥
+                    challenges, and 🔍 in-depth reviews. My channel also features 📹 vlogs and other creative projects,
+                    giving viewers a closer look into my journey, interests, and experiences.</p>
+                <p>📺 Want to see more? Check out my YouTube channel by clicking the 🔗 social links highlighted on
+                    this webpage!</p>
+                <p class="bio-subheading"> 🛠️ Game Development & Web Design 💻
+                <p> As a Roblox developer, I am currently working on Floating Guns 🔫, an innovative shooter designed to
+                    push the boundaries of competitive gameplay. I also have experience in 🌐 web development, having
+                    built this website from scratch to serve as a hub for my projects, content, and growing community. I
+                    am also working On Expanding into other Social Media Platforms and businesses. </p>
+
+                <p class="bio-subheading"> 🤝 Join the Community 🚀 </p>
+                <P> I’m always open to connecting with my audience, exploring new games, and collaborating on exciting
+                    projects. If you have a game you'd like to see me play—whether on Roblox or beyond 🎮—feel free to
+                    reach out through the 📩 Contact Me section.
+                    ✨ Join me as I continue to create, compete, and inspire—one game, one video, and one message at a
+                    time. ✨
+                </P>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div id="aspirations" class="content">
+        <h2 style="color: white;">Aspirations</h2>
+        <p>Here you can write about your goals and ambitions.</p>
+    </div>
+
+
+    <div id="contact" class="content">
+        <h2 style="color: white;">Contact Me</h2>
+        <p>Provide ways for people to reach you.</p>
+    </div>
+
+
+    <div class="social-icons">
+        <a href="https://www.youtube.com/@Yoriiiiee" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube">
+        </a>
+        <a href="https://discord.gg/V6gWTUfn9j" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/98/Discord_logo.svg" alt="Discord">
+        </a>
+        <a href="https://www.roblox.com/users/354966908/profile?friendshipSourceType=PlayerSearch" target="_blank">
+            <img src="https://media.discordapp.net/attachments/1342505138144940032/1343759942447796264/image-Photoroom_25.png?ex=67be7178&is=67bd1ff8&hm=d18d9a7d04a1b2cd6053fbea4fac9d5c4edbaff112dc3730d897f86791a3b1a4&=&format=webp&quality=lossless&width=692&height=692"
+                alt="Roblox">
+        </a>
+    </div>
+
+
+    <p id="currentHourDisplay"></p>
+
+
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.content').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+        }
+
+
+        function toggleBio() {
+            var bioContent = document.getElementById("bio-content");
+            if (bioContent.style.display === "none" || bioContent.style.display === "") {
+                bioContent.style.display = "block";
+            } else {
+                bioContent.style.display = "none";
+            }
+        }
+
+
+        var currentDate = new Date();
+        var currentHour = currentDate.getHours();
+        document.getElementById('currentHourDisplay').textContent = 'The current hour is ' + currentHour;
+    </script>
+</body>
+
+</html>
